@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(73, 73, 73);
+    color: rgb(223, 222, 222);
+}
+
+header, section h2, section h3{
+    font-family: 'cinzel', serif;
+    font-weight: normal;
+}
+
+header h1{
+    font-size: 46px;
+}
+
+.logo-site{
+    display: inline-flex;
+}
+
+.logo-site img{
+    height: 65px;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: rgb(73, 73, 73);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px
+}
+
+header nav li a {
+    color:rgb(223, 222, 222);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.streaming{
+    text-align: center;
+}
+
+.stream-logo {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stream-logo img{
+    height: 78px;
+}
+
+.stream-logo li{
+    padding: 0 12px;
+}
+
+.stream-logo p{
+    width: 78px;
+}
+
+section .container  {
+    align-items: flex-start;
+}
+
+section .container .stream-logo{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+section {
+    color: rgb(223, 222, 222);
+    padding: 8px 0;
+    margin-bottom: 18px;
+}
+
+section h2{
+    margin-bottom: 16px;
+    font-size: 26px;
+}
+
+section p {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.show-poster {
+    margin-right: 38px;
+}
+
+.streaming {
+    padding-top: 24px;
+}
+
+.streaming h3{
+    padding-bottom: 16px;
+    font-size: 21px;
+}
+
+/* Estilo para a seção de Elenco */
+#cast {
+    background-color: #1f1f1f;
+    color: #f7f7f7;
+    padding: 8px 0;
+    text-align: center;
+}
+
+#cast h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-cast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+section .main-cast p{
+    margin-bottom: 4px;
+}
+
+.main-cast img {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.main-cast li {
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 8px 12px;
+}
+
+.main-cast ul img {
+    height: 329px;
+    width: 100%;
+}
+
+.container .main-cast ul {
+    max-width: 26%;
+    padding-right: 50%;
+
+}
+
+.actor {
+    text-align: center;
+    font-size: 16px;
+}
+
+.character {
+    font-size: 12px;
+}
+
+#newsletter {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#newsletter h2 {
+    font-size: 29px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    border-radius: 12px 12px 0 0;
+    background-color: #3d3d3d;
+}
+
+#newsletter p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#newsletter .container {
+    background-color: #1f1f1f;
+    display: block;
+    height: auto;
+    max-width: 1280px;
+    border-radius: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 430px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3d3d3d;
+    color: #fff;
+    margin-bottom: 18px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    background-color: #7c7c7c;
+}
+
+input:focus {
+    outline-color: #f7f7f7;
+}
+
+footer{
+    background-color: #1f1f1f;
+    color: #f7f7f7;
+    padding: 16px 0;
+}
+
+
