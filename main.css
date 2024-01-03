@@ -222,6 +222,7 @@ input {
     width: 430px;
     box-sizing: border-box;
     font-size: 18px;
+    text-align: center;
 }
 
 button {
